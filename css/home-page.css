@@ -7,6 +7,10 @@ body{
     scroll-behavior: smooth;
 }
 
+.nav-item{
+    font-family: "righteous";
+}
+
 .navbar {
     background-color: #A80000 !important;
 }
@@ -20,21 +24,64 @@ body{
 }
 
 .logoTalent {
-    width: 100%;
+    width: 60%;
+    margin:10%;
+}
+
+.firstImageCA{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.alternance {
+    font-family: 'Play';
+}
+
+.nom { 
+    font-family: 'righteous';
+}
+
+.btn {
+    font-family: 'righteous';
+    background-color: #171717;
+    transition-duration: 0.4s;
+    color:white;
+    border-color: white;
+    border-radius: 0.3em;
+}
+.btn:hover{
+    background-color: #A80000;
+    border-color: white;
+}
+
+.texteDesc{
+    font-family: 'Play';
+}
+
+.text-center {
+    font-family: 'righteous';
+    font-size: 25px;
+}
+
+.projet-content h2{
+    font-family: 'righteous';
+    font-size: 20px;
+}
+
+.projet-content p{
+    font-family: 'Play';
 }
 
 .card {
-    border-radius: 1.5rem;
     background: #171717;
     color: white;
 }
 
 .card .face.face1 {
     background: #333;
-    border-radius: 1.5rem;
-
     z-index: 1;
-    transform: translateY(100px);
+    transform: translateY(102px);
 }
 
 .card:hover .face.face1 {
@@ -52,9 +99,31 @@ body{
     opacity: 1;
 }
 
+.featurette-heading{
+    font-family: 'Play';
+}
+
+.lead{
+    font-family: 'Play'; 
+}
+
+.content{
+    font-family: 'Righteous';  
+}
+
+.date{
+    font-family: 'Righteous';  
+}
+
 .logoEnt{
     width: 235px;
-    margin: 150px 0px;
+    margin: 120px 0px;
+    transform: translate(50%, 50%);
+}
+
+.logoCrous{
+    width: 150px;
+    margin: 120px 0px;
     transform: translate(50%, 50%);
 }
 
@@ -157,6 +226,7 @@ body{
     width: 100%;
     padding: 40px 0;
     text-align: center;
+    color: #171717;
 }
 
 .book-section>.bookcontainer {
@@ -268,6 +338,12 @@ body{
 .front#cover h1 {
     color: #fff;
 }
+
+.float-end a {
+    color: #A80000;
+}
+
+
 
 
 /*************************************************************************/

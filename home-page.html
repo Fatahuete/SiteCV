@@ -19,10 +19,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- Bootstrap v4.5 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- Bootstrap v4.5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -48,7 +53,7 @@
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/home-page.html">
-                    <img src="./images/logoEva.png" alt="logo eva" class="logo">
+                    <img src="./images/logoEvaRed.PNG" alt="logo eva" class="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -79,33 +84,49 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/background.png" class="d-block w-100" width="100%" height="100%">
+                    <img class="firstImageCA" src="./images/ca1.png" class="d-block w-100" width="100%" height="100%">
                     <div class="container">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>Bonjour, je suis</p>
-                            <h1>Eva BILLAUD</h1>
+                            <p class="alternance">Bonjour, je suis</p>
+                            <h1 class="nom">Eva BILLAUD</h1>
+                            <p class="alternance">Alternance
+                                <span class="txt-rotate" data-period="2000"
+                                    data-rotate='[ "chef de projet digital.", "e-commerce.", "digitale.", "communication.", "marketing." ]'>
+                                </span>
+                            </p>
                             <p><a class="btn btn-lg btn-primary" href="#projets">Mes projets</a></p>
+                            <p class="texteDesc">Passionnée par les nouvelles technologies et voulant mettre à profit ma créativité, je souhaite poursuivre mes études en alternance dans le domaine du digital.|</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <img src="images/background.png" class="d-block w-100" width="100%" height="100%">
+                    <img src="images/ca2.png" class="d-block w-100" width="100%" height="100%">
                     <div class="container">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>Bonjour, je suis</p>
-                            <h1>Eva BILLAUD</h1>
+                            <p class="alternance">Bonjour, je suis</p>
+                            <h1 class="nom">Eva BILLAUD</h1>
+                            <p class="alternance">Alternance
+                                <span class="txt-rotate" data-period="2000"
+                                    data-rotate='[ "chef de projet digital.", "e-commerce.", "digitale.", "communication.", "marketing." ]'>
+                                </span>
+                            </p>
                             <p><a class="btn btn-lg btn-primary" href="#">Mes projets</a></p>
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <img src="images/background.png" class="d-block w-100" width="100%" height="100%">
+                    <img src="images/ca3.png" class="d-block w-100" width="100%" height="100%">
                     <div class="container">
                         <div class="carousel-caption d-none d-md-block">
-                            <p>Bonjour, je suis</p>
-                            <h1>Eva BILLAUD</h1>
+                            <p class="alternance">Bonjour, je suis</p>
+                            <h1 class="nom">Eva BILLAUD</h1>
+                            <p class="alternance">Alternance
+                                <span class="txt-rotate" data-period="2000"
+                                    data-rotate='[ "chef de projet digital.", "e-commerce.", "digitale.", "communication.", "marketing." ]'>
+                                </span>
+                            </p>
                             <p><a class="btn btn-lg btn-primary" href="#">Mes projets</a></p>
                         </div>
                     </div>
@@ -129,7 +150,7 @@
             <h1 class="text-center">Mes Projets</h1>
             <!-- Three columns of text below the carousel -->
             <div class="row">
-                <div class="col-lg-4" >
+                <div class="col-lg-4">
                     <div class="card">
                         <div class="face face1">
                             <div class="projet-content">
@@ -140,25 +161,10 @@
 
                         <div class="face face2">
                             <div class="projet-content">
-                                <p>Création visuel, flyers, affiche, ticket de tombola, carte de visite, plaquette partenaire</p>
-                                <p><a class="btn btn-secondary" href="https://projetincroyabtalent.wixsite.com/monsite" target="_blank">Site</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4" >
-                    <div class="card">
-                        <div class="face face1">
-                            <div class="projet-content">
-                                <img src="./images/logoTalent.png" alt="Talent" class="logoTalent">
-                                <h2>Talent Tours</h2>
-                            </div>
-                        </div>
-
-                        <div class="face face2">
-                            <div class="projet-content">
-                                <p>Création visuel, flyers, affiche, ticket de tombola, carte de visite, plaquette partenaire</p>
-                                <p><a class="btn btn-secondary" href="https://projetincroyabtalent.wixsite.com/monsite" target="_blank">Site</a></p>
+                                <p>Création visuel, flyers, affiche, ticket de tombola, carte de visite, plaquette
+                                    partenaire</p>
+                                <p><a class="btn btn-secondary" href="https://projetincroyabtalent.wixsite.com/monsite"
+                                        target="_blank">Site</a></p>
                             </div>
                         </div>
                     </div>
@@ -174,8 +180,29 @@
 
                         <div class="face face2">
                             <div class="projet-content">
-                                <p>Création visuel, flyers, affiche, ticket de tombola, carte de visite, plaquette partenaire</p>
-                                <p><a class="btn btn-secondary" href="https://projetincroyabtalent.wixsite.com/monsite" target="_blank">Site</a></p>
+                                <p>Création visuel, flyers, affiche, ticket de tombola, carte de visite, plaquette
+                                    partenaire</p>
+                                <p><a class="btn btn-secondary" href="https://projetincroyabtalent.wixsite.com/monsite"
+                                        target="_blank">Site</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="projet-content">
+                                <img src="./images/logoTalent.png" alt="Talent" class="logoTalent">
+                                <h2>Talent Tours</h2>
+                            </div>
+                        </div>
+
+                        <div class="face face2">
+                            <div class="projet-content">
+                                <p>Création visuel, flyers, affiche, ticket de tombola, carte de visite, plaquette
+                                    partenaire</p>
+                                <p><a class="btn btn-secondary" href="https://projetincroyabtalent.wixsite.com/monsite"
+                                        target="_blank">Site</a></p>
                             </div>
                         </div>
                     </div>
@@ -189,7 +216,8 @@
             <h2 class="text-center mb-5">Mes expériences</h2>
             <div class="row featurette" data-aos="fade-right">
                 <div class="col-md-7">
-                    <h3 class="featurette-heading">Apprentie -  <span class="text-muted">Community Manager et assistante administrative</span></h3>
+                    <h3 class="featurette-heading">Apprentie - <span class="text-muted">Community Manager et assistante
+                            administrative</span></h3>
                     <p class="lead">
                         • Création plan de communication <br>
                         • Animation des réseaux sociaux <br>
@@ -204,10 +232,12 @@
                         <img src="./images/localisation.svg" alt="" class="icone">
                         <h3>Balma, Toulouse</h3>
                     </div>
-                    <a href="https://www.cap-manager.com/" target="_blank" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" id="buttonEnt">
+                    <a href="https://www.cap-manager.com/" target="_blank"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        id="buttonEnt">
                         <img src="./images/logoCAP.png" alt="CAP" class="logoEnt">
                     </a>
-                    <p>Sep-2020 à Sep-2021</p>
+                    <p class="date">Sep-2020 à Sep-2021</p>
                 </div>
             </div>
 
@@ -215,7 +245,8 @@
 
             <div class="row featurette" data-aos="fade-left">
                 <div class="col-md-7 order-md-2">
-                    <h3 class="featurette-heading">Stagiaire -  <span class="text-muted">Assistance communication</span></h3>
+                    <h3 class="featurette-heading">Stagiaire - <span class="text-muted">Assistance communication</span>
+                    </h3>
                     <p class="lead">
                         • Création de supports de communication (vidéos & Flyers)
                     </p>
@@ -225,10 +256,12 @@
                         <img src="./images/localisation.svg" alt="" class="icone">
                         <h3>Weston-Super-Mare, UK</h3>
                     </div>
-                    <a href="https://www.powervamp.com/" target="_blank" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" id="buttonEnt">
+                    <a href="https://www.powervamp.com/" target="_blank"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        id="buttonEnt">
                         <img src="./images/logoPower.png" alt="power" class="logoEnt">
                     </a>
-                    <p>Mars-2020</p>
+                    <p class="date">Mars-2020</p>
                 </div>
             </div>
 
@@ -236,7 +269,8 @@
 
             <div class="row featurette" data-aos="fade-right">
                 <div class="col-md-7">
-                    <h3 class="featurette-heading">Apprentie -  <span class="text-muted">Assistante administration des ventes</span></h3>
+                    <h3 class="featurette-heading">Apprentie - <span class="text-muted">Assistante administration des
+                            ventes</span></h3>
                     <p class="lead">
                         • Création d’un cahier des charges pour un module Symfony.<br>
                         • Création de procédures, démarche qualité. <br>
@@ -249,10 +283,12 @@
                         <img src="./images/localisation.svg" alt="" class="icone">
                         <h3>Sorigny, Tours</h3>
                     </div>
-                    <a href="https://www.powervamp.com/" target="_blank" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" id="buttonEnt">
+                    <a href="https://www.powervamp.com/" target="_blank"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        id="buttonEnt">
                         <img src="./images/logoTLD.png" alt="power" class="logoEnt">
                     </a>
-                    <p>Septembre 2018 - 2020</p>
+                    <p class="date">Septembre 2018 - 2020</p>
                 </div>
             </div>
 
@@ -270,10 +306,12 @@
                         <img src="./images/localisation.svg" alt="" class="icone">
                         <h3>Croix Montoire, Tours</h3>
                     </div>
-                    <a href="https://www.crous-orleans-tours.fr/" target="_blank" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" id="buttonEnt">
-                        <img src="./images/logoCrous.png" alt="power" class="logoEnt">
+                    <a href="https://www.crous-orleans-tours.fr/" target="_blank"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        id="buttonEnt">
+                        <img src="./images/logoCrous.png" alt="power" class="logoCrous">
                     </a>
-                    <p>Mars-2020</p>
+                    <p class="date">Mars-2020</p>
                 </div>
             </div>
             <!-- /END THE FEATURETTES -->
@@ -378,6 +416,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="./Js/fonction.js"></script>
 </body>
 
 </html>
